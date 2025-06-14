@@ -38,8 +38,10 @@ cd Cardiac_Forecasting_System
 python3 -m venv venv
 #macOS/Linux
 source venv/bin/activate  
+
 #Windows
 .\venv\Scripts\activate
+
 pip install -r requirements.txt
 No requirements.txt?
 pip install flask pandas scikit-learn joblib fpdf matplotlib
@@ -51,6 +53,7 @@ Run Flask App
 
 #macOS/Linux
 export FLASK_APP=app.py   
+
 #Windows
 set FLASK_APP=app.py
 
@@ -97,7 +100,6 @@ set FLASK_APP=app.py
 
 # 🤝 Contributing
 Fork & clone
-
 Create branch:
 git checkout -b feature/your-awesome-feature
 Commit & push:
