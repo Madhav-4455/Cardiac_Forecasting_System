@@ -83,7 +83,7 @@ set FLASK_APP=app.py
 7. PDF Report Predictions page-1
 ![pdf](screenshots/PDFREP_1.png)
 
-8. PDF Report Predictions page-1
+8. PDF Report Predictions page-2
 ![Pdf](screenshots/PDFREP_2.png)
 
 # 🌟 Roadmap
