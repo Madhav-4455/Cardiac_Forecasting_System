@@ -36,13 +36,12 @@ git clone https://github.com/anasrobo/Cardiac_Forecasting_System.git
 cd Cardiac_Forecasting_System
 
 python3 -m venv venv
-# macOS/Linux
+#macOS/Linux
 source venv/bin/activate  
-# Windows
+#Windows
 .\venv\Scripts\activate
 pip install -r requirements.txt
 No requirements.txt?
-
 pip install flask pandas scikit-learn joblib fpdf matplotlib
 
 # 🚀 Usage
@@ -91,9 +90,9 @@ git commit -m "✨ Add awesome feature"
 git push origin feature/your-awesome-feature
 Open a PR — let’s collab! 🚀
 
-📄 License
+# 📄 License
 Licensed under MIT. See LICENSE for details.
 
 “The best way to predict the future is to create it.” – Peter Drucker
 
-Made with ❤️ by Anas
+# Made with ❤️ by Anas
