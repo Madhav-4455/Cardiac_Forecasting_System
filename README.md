@@ -13,9 +13,9 @@ By excluding the angiogram‑based **“ca”** feature, we help you dodge unnec
 
 ## 📊 Key Features
 - 🏷️ **Binary Classification:** High vs. low chance of heart disease  
-- 🔍 **11 Core Metrics:** Age, sex, chest pain, BP, cholesterol, ECG, HR, angina, ST‑depression, ST‑slope  
+- 🔍 **11 Core Metrics:** Age, sex, chest pain, BP, cholesterol, ECG, FBS, HR, angina, ST‑depression, ST‑slope  
 - 🚫 **No “ca” Feature:** Avoids reliance on invasive angiogram data  
-- 🤖 **Multi‑Model Ensemble:** Logistic Regression, SVM, Decision Tree, Random Forest, XGBoost  
+- 🤖 **Multi‑Model Soft Ensemble:** Logistic Regression, SVM, Decision Tree, Random Forest, XGBoost  
 - 🌐 **Flask Web App:** Slick UI in `templates/index.html`  
 - 📄 **PDF Reports:** Downloadable summary with trend charts  
 
