@@ -1,6 +1,6 @@
 # Cardiac_Forecasting_Tool
 
-#Dataset Used
+# Dataset Used
 https://www.kaggle.com/datasets/sid321axn/heart-statlog-cleveland-hungary-final
 Downloaded the dataset from this website. This dataset is used because there are not many duplicates and it has only 11 features where the "ca" feature is 
 excluded here, from which we can make a model without having unnecessary angiograms done and can predict the cardiovascular disease.
