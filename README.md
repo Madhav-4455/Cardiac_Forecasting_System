@@ -1,20 +1,119 @@
-# Cardiac_Forecasting_Tool
+# 🚀 Cardiac Forecasting System (HeartGuard)
 
-# Dataset Used
-https://www.kaggle.com/datasets/sid321axn/heart-statlog-cleveland-hungary-final
-Downloaded the dataset from this website. This dataset is used because there are not many duplicates and it has only 11 features where the "ca" feature is 
-excluded here, from which we can make a model without having unnecessary angiograms done and can predict the cardiovascular disease.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+🔗 **Repository:** https://github.com/anasrobo/Cardiac_Forecasting_System/tree/main
 
-# Other Datasets
-https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
-Downloaded the dataset from this website. This dataset could also be used as there are no issues and can be used if you also want more accuracy in predicting
-cardiac disease. But we didn't used this dataset because we wanted to tackle the unnecessary coronary angiograms as this dataset contains that "ca" feature.
+---
 
-https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download
-Downloaded the dataset from this website. Cleveland, Hungary, Switzerland, and Long Beach V (name- heart.csv) 
-But heart.csv has 723 duplicates out of 1025 rows which is just too many. So we are not using that dataset here.
+## 💡 Project Overview
+**HeartGuard** is a Flask‑powered web app that predicts your heart disease risk using **11 non‑invasive clinical features**.  
+By excluding the angiogram‑based **“ca”** feature, we help you dodge unnecessary invasive tests and save ₹20,000–₹80,000 per procedure.
 
-A4 Cardiac Disease.csv has so many duplicates, so we are not using that dataset.
+---
 
-There are other datasets in the project too but we are not using thos datasets simply because there are only 300-400 rows.
+## 📊 Key Features
+- 🏷️ **Binary Classification:** High vs. low chance of heart disease  
+- 🔍 **11 Core Metrics:** Age, sex, chest pain, BP, cholesterol, ECG, HR, angina, ST‑depression, ST‑slope  
+- 🚫 **No “ca” Feature:** Avoids reliance on invasive angiogram data  
+- 🤖 **Multi‑Model Ensemble:** Logistic Regression, SVM, Decision Tree, Random Forest, XGBoost  
+- 🌐 **Flask Web App:** Slick UI in `templates/index.html`  
+- 📄 **PDF Reports:** Downloadable summary with trend charts  
 
+---
+
+## 🗂️ Dataset
+1. **Primary**: [Cleveland + Hungary Final Dataset](https://www.kaggle.com/datasets/sid321axn/heart-statlog-cleveland-hungary-final)  
+2. **Excluded**:  
+   - “Heart Disease Data” (contains “ca” feature)  
+   - `heart.csv` (723 duplicates)  
+   - A4_Cardiac_Disease.csv (too many duplicates)  
+   - Tiny datasets (< 400 rows)
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/anasrobo/Cardiac_Forecasting_System.git
+cd Cardiac_Forecasting_System
+
+python3 -m venv venv
+# macOS/Linux
+source venv/bin/activate  
+# Windows
+.\venv\Scripts\activate
+
+pip install -r requirements.txt
+No requirements.txt?
+
+bash
+Copy
+Edit
+pip install flask pandas scikit-learn joblib fpdf matplotlib
+🚀 Usage
+Explore & Train
+
+bash
+Copy
+Edit
+jupyter notebook Cardiac_Forecasting_Tool.ipynb
+Run Flask App
+
+bash
+Copy
+Edit
+# macOS/Linux
+export FLASK_APP=app.py   
+# Windows
+set FLASK_APP=app.py
+
+flask run
+– Open 👉 http://127.0.0.1:5000
+– Fill out your clinical metrics
+– Get instant risk % & per‑model breakdown
+– Hit “Generate Report” to snag a PDF
+
+📸 Screenshots
+1. Hero Section & Overview
+
+2. Input Form UI
+
+3. Features & Benefits
+
+4. Testimonials & Footer
+
+(Adjust file names/paths if you rename your images.)
+
+🌟 Roadmap
+ 🎨 Responsive UI revamp with React
+
+ 🧪 Unit tests + CI/CD pipeline
+
+ ☁️ Deploy to Heroku / AWS
+
+ 📦 Dockerize for one‑click launch
+
+🤝 Contributing
+Fork & clone
+
+Create branch:
+
+bash
+Copy
+Edit
+git checkout -b feature/your-awesome-feature
+Commit & push:
+
+bash
+Copy
+Edit
+git commit -m "✨ Add awesome feature"
+git push origin feature/your-awesome-feature
+Open a PR — let’s collab! 🚀
+
+📄 License
+Licensed under MIT. See LICENSE for details.
+
+“The best way to predict the future is to create it.” – Peter Drucker
+
+Made with ❤️ by Anas
