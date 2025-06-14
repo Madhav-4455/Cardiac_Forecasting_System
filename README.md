@@ -54,13 +54,13 @@ export FLASK_APP=app.py
 #Windows
 set FLASK_APP=app.py
 
-# flask run
+# Flask run
 – Open 👉 http://127.0.0.1:5000
 – Fill out your clinical metrics
 – Get instant risk % & per‑model breakdown
 – Hit “Generate Report” to snag a PDF
 
-📸 Screenshots
+# 📸 Screenshots
 1. Hero Section & Overview
 
 2. Input Form UI
