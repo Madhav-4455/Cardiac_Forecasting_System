@@ -91,7 +91,7 @@ set FLASK_APP=app.py
 
  🧪 Unit tests + CI/CD pipeline
 
- ☁️ Deploy to Heroku / AWS
+ ☁️ Deploy to Heroku / Render / AWS
 
  📦 Dockerize for one‑click launch
 
