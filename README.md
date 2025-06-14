@@ -62,14 +62,29 @@ set FLASK_APP=app.py
 
 # 📸 Screenshots
 1. Hero Section & Overview
+![Hero](screenshots/hero.png)
 
 2. Input Form UI
+![Form](screenshots/form.png)
 
-3. Features & Benefits
+3. Features and Benefits
+![Benefits](screenshots/benefits.png)
 
 4. Testimonials & Footer
-
+![Testimonials](screenshots/testimonials.png)
 (Adjust file names/paths if you rename your images.)
+
+5. Predictions
+![Predictions](screenshots/Predictions.png)
+
+6. Risk Forecasting
+![Forecasting](screenshots/RiskForecasting.png)
+
+7. PDF Report Predictions page-1
+![pdf](screenshots/PDFREP_1.png)
+
+8. PDF Report Predictions page-1
+![Pdf](screenshots/PDFREP_2.png)
 
 # 🌟 Roadmap
  🎨 Responsive UI revamp with React
