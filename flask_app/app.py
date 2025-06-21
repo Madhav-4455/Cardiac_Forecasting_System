@@ -15,19 +15,19 @@ print(f"Generated Secret Key: {app.secret_key}")  # Print the key temporarily
 # ----------------------------
 models = {
     'Logistic Regression': pickle.load(open(
-        "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/logistic_regression_Model.pkl", "rb"
+        "D:/Cardiac_Forecasting_System/flask_app/models/logistic_regression_Model.pkl", "rb"
     )),
     'SVM': pickle.load(open(
-        "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/svm_Model.pkl", "rb"
+        "D:/Cardiac_Forecasting_System/flask_app/models/svm_Model.pkl", "rb"
     )),
     'Decision Tree': pickle.load(open(
-        "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/decision_tree_Model.pkl", "rb"
+        "D:/Cardiac_Forecasting_System/flask_app/models/decision_tree_Model.pkl", "rb"
     )),
     'Random Forest': pickle.load(open(
-        "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/random_forest_Model.pkl", "rb"
+        "D:/Cardiac_Forecasting_System/flask_app/models/random_forest_Model.pkl", "rb"
     )),
     'XGBoost': pickle.load(open(
-        "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/xgboost_Model.pkl", "rb"
+        "D:/Cardiac_Forecasting_System/flask_app/models/xgboost_Model.pkl", "rb"
     ))
 }
 
@@ -35,13 +35,13 @@ models = {
 # Load preprocessors (original absolute paths)
 # ----------------------------
 scaler           = joblib.load(
-    "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/scaler.pkl"
+    "D:/Cardiac_Forecasting_System/flask_app/models/scaler.pkl"
 )
 poly             = joblib.load(
-    "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/poly.pkl"
+    "D:/Cardiac_Forecasting_System/flask_app/models/poly.pkl"
 )
 expected_columns = joblib.load(
-    "D:/DA and DS Projects/Cardiac_Forecasting_System/flask_app/models/expected_columns.pkl"
+    "D:/Cardiac_Forecasting_System/flask_app/models/expected_columns.pkl"
 )
 
 @app.route('/', methods=['GET', 'POST'])
