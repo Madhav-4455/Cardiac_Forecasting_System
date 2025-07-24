@@ -112,4 +112,4 @@ Licensed under MIT. See LICENSE for details.
 
 “The best way to predict the future is to create it.” – Peter Drucker
 
-# Made with ❤️ by Anas
+# Made with ❤️ by Madhav
