@@ -1,7 +1,7 @@
 # 🚀 Cardiac Forecasting System (HeartGuard)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-🔗 **Repository:** https://github.com/Madhav-4455/Cardiac_Forecasting_System/tree/main
+🔗 **Repository:** https://github.com/Madhav4455/Cardiac_Forecasting_System/tree/main
 
 ---
 
@@ -32,7 +32,7 @@ By excluding the angiogram‑based **“ca”** feature, we help you dodge unnec
 ---
 
 ## ⚙️ Installation
-git clone https://github.com/Madhav-4455/Cardiac_Forecasting_System.git
+git clone https://github.com/Madhav4455/Cardiac_Forecasting_System.git
 cd Cardiac_Forecasting_System
 
 python3 -m venv venv
